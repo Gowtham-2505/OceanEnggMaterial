@@ -2,9 +2,10 @@
 Commits on branch trail:
 =======================================================================================
 
+[21-NOVEMBER-2020] Commit Message: 'change in fxc and fxe'
 [21-NOVEMBER-2020] Commit Message: 'Adding BW_graph'
 
 =======================================================================================
 Commits on branch main:
 =======================================================================================
-[21-NOVEMBER-2020] Merged trail's commit 'Adding BW_graph'
+[21-NOVEMBER-2020] Merged trail's commit 'Adding BW_graph' & 'change in fxc and fxe'
