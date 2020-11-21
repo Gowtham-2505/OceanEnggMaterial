@@ -37,7 +37,9 @@ if D/t <= 60:
 elif D/t>60 and D/t<300:
     C = 0.3
     Fxe = 2*C*E*t/D  #N/mm^2
+    print(Fxe)
     Fxc = fy*(1.64-0.23*pow(D/t,0.25))
+    print(Fxc)
     Fy = min(Fxe,Fxc)
 E = 2.0e+05   #In N/mm^2
 cc = np.sqrt(2*(np.pi**2)*E/Fy)
