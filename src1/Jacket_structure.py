@@ -32,16 +32,16 @@ depth = 70 #m
 
 
 fy = 345      #In N/mm^2
+E = 2.0e+05   #In N/mm^2
 if D/t <= 60:
     Fy = fy      
 elif D/t>60 and D/t<300:
     C = 0.3
     Fxe = 2*C*E*t/D  #N/mm^2
-    print(Fxe)
+    print("Fxe: ",Fxe)
     Fxc = fy*(1.64-0.23*pow(D/t,0.25))
-    print(Fxc)
+    print('Fxc: ',Fxc)
     Fy = min(Fxe,Fxc)
-E = 2.0e+05   #In N/mm^2
 cc = np.sqrt(2*(np.pi**2)*E/Fy)
 #given moment along yy and zz
 myy = 780 #Kn-m
